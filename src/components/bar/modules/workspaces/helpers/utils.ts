@@ -251,7 +251,7 @@ export const renderLabel = (
     monitor: number,
 ): string => {
     if (showAppIcons) {
-        return "[" + (workspaceMask ? `${index + 1}` : `${i}`) + " " + appIcons + "]";
+        return "" + (workspaceMask ? `${index + 1}` : `${i}`) + " " + appIcons + "";
     }
 
     if (showIcons) {
